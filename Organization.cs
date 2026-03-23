@@ -7,6 +7,6 @@ public class Organization{
       Name = name;
    }
    public string GetName {
-      get { return Name; }
+      get { Name; }
    }
 }
