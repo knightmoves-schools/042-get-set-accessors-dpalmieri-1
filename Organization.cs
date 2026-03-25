@@ -6,6 +6,6 @@ public class Organization{
    public Organization(string name){
       Name = name;
       public string Person { get => name }
-      return Person
+      return Person;
    }
 }
