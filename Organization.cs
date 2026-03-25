@@ -5,6 +5,7 @@ public class Organization{
 
    public Organization(string name){
       Name = name;
-      return { get; }
+      public string Person { get => name }
+      return Person
    }
 }
